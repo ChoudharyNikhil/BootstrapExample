@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\coursera\\Bootstrap PDFS\\confusion\\node.exe',
+1 verbose cli   'E:\\coursera\\Bootstrap PDFS\\confusion\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of C:\Users\NIKHIL BANSAL\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\NIKHIL BANSAL\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'grunt-cli', null ]
+7 verbose cache add spec grunt-cli
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'grunt-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'grunt-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed grunt-cli@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for grunt-cli
+11 info addNameTag [ 'grunt-cli', 'latest' ]
+12 silly mapToRegistry name grunt-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'grunt-cli',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'grunt-cli',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+17 verbose addNameTag registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/grunt-cli
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 2:49:57 PM
+21 verbose request id 95b2c71c28c7a722
+22 http request GET https://registry.npmjs.org/grunt-cli
+23 info retry will retry, error on last attempt: Error: certificate has expired
+24 info attempt registry request try #2 at 2:50:07 PM
+25 http request GET https://registry.npmjs.org/grunt-cli
+26 info retry will retry, error on last attempt: Error: certificate has expired
+27 info attempt registry request try #3 at 2:51:07 PM
+28 http request GET https://registry.npmjs.org/grunt-cli
+29 verbose stack Error: certificate has expired
+29 verbose stack     at Error (native)
+29 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:1017:38)
+29 verbose stack     at emitNone (events.js:67:13)
+29 verbose stack     at TLSSocket.emit (events.js:166:7)
+29 verbose stack     at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:582:8)
+29 verbose stack     at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:424:38)
+30 verbose cwd E:\coursera\Bootstrap PDFS\confusion
+31 error Windows_NT 6.3.9600
+32 error argv "E:\\coursera\\Bootstrap PDFS\\confusion\\node.exe" "E:\\coursera\\Bootstrap PDFS\\confusion\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "grunt-cli"
+33 error node v4.4.2
+34 error npm  v2.15.0
+35 error code CERT_HAS_EXPIRED
+36 error certificate has expired
+37 error If you need help, you may report this error at:
+37 error     <https://github.com/npm/npm/issues>
+38 verbose exit [ 1, true ]
